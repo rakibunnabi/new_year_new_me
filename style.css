@@ -1,0 +1,167 @@
+/* common styles */
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+p {
+    color: grey;
+}
+
+li {
+    color: grey;
+}
+
+.font-work-sans {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.font-dancing-script {
+    font-family: 'Dancing Script', cursive;
+}
+
+.container {
+    display: flex;
+    margin: 0 0 10% 0;
+    align-items: center;
+}
+
+.half-width {
+    padding: 2% 5% 2% 2%;
+    margin: 2% 2% 2% 2%;
+}
+
+.fa-check {
+    color: #16D887;
+}
+
+/* part 1 */
+
+.banner {
+    background-image: url(assets/banner/banner1.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: end;
+    padding: 2% 5% 10% 60%;
+    margin: 0 0 5% 0;
+}
+
+.button-1 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    background-color: #F15B22;
+    border: none;
+    border-radius: 5px;
+    padding: 4% 6% 4% 6%;
+}
+
+/* part 3 */
+
+.part-3 {
+    margin: 0 0 10% 0;
+    padding: 0 2% 0 2%;
+}
+
+.part-3>h2 {
+    text-align: center;
+}
+
+.part-3-area {
+    display: flex;
+    justify-content: space-around;
+    padding: 5% 0 0 0;
+}
+
+.part-3-content {
+    text-align: center;
+}
+
+/* part 4 */
+
+.part-4 {
+    background-image: url(assets/images/gradient2.png), url(assets/images/watch.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 5% 5% 10% 10%;
+    margin: 0 5% 10% 5%;
+    border-radius: 10px;
+}
+
+.part-4>h2 {
+    color: #FFFFFF;
+}
+
+.button-2 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #F15B22;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    padding: 1% 3% 1% 3%;
+}
+
+/* part 5 */
+
+.part-5 {
+    padding: 8% 60% 10% 8%;
+    margin: 12% 0% 10% 0;
+    background-image: url(assets/banner/custom-made-image.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border: 8px solid skyblue;
+    border-right: 2px;
+    border-radius: 5px;
+}
+
+/* footer */
+
+footer {
+    background-color: black;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    color: #FFFFFF;
+    padding: 2% 8% 2% 8%;
+}
+
+#footer-div-1 {
+    padding: 0 25% 0 0;
+}
+
+.footer-icons {
+    margin: 1% 2% 0 0;
+}
+
+#email {
+    background-color: black;
+    width: 300px;
+    height: 50px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 0 0 0 5%;
+    color: #FFFFFF;
+}
+
+.button-3 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #F15B22;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    padding: 5% 8% 5% 8%;
+    margin: 5% 0 0 0;
+}
